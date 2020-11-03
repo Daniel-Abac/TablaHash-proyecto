@@ -75,6 +75,10 @@ public class Menu_Principal extends javax.swing.JFrame {
         Fondo = new javax.swing.JLabel();
         combo1 = new javax.swing.JComboBox<>();
 
+        jDialog.setTitle("Insertar Pelicula");
+        jDialog.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jDialog.setLocation(new java.awt.Point(321, 293));
+        jDialog.setSize(new java.awt.Dimension(335, 315));
         jDialog.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel_ID.setBackground(new java.awt.Color(255, 255, 255));
@@ -82,21 +86,21 @@ public class Menu_Principal extends javax.swing.JFrame {
         jLabel_ID.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel_ID.setText("ID:");
         jDialog.getContentPane().add(jLabel_ID, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 20, 20));
-        jDialog.getContentPane().add(jTextField_ID, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 50, 120, -1));
+        jDialog.getContentPane().add(jTextField_ID, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 50, 120, -1));
 
         jLabel_Nombre.setBackground(new java.awt.Color(255, 255, 255));
         jLabel_Nombre.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_Nombre.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel_Nombre.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel_Nombre.setText("Nombre: ");
-        jDialog.getContentPane().add(jLabel_Nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 50, -1));
-        jDialog.getContentPane().add(jTextField_Nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 90, 120, -1));
+        jDialog.getContentPane().add(jLabel_Nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 60, -1));
+        jDialog.getContentPane().add(jTextField_Nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 90, 120, -1));
 
         jLabel_Año.setBackground(new java.awt.Color(255, 255, 255));
         jLabel_Año.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_Año.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel_Año.setText("Año:");
         jDialog.getContentPane().add(jLabel_Año, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 30, -1));
-        jDialog.getContentPane().add(jTextField_Año, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, 120, -1));
+        jDialog.getContentPane().add(jTextField_Año, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, 120, -1));
 
         jLabel_Genero.setBackground(new java.awt.Color(255, 255, 255));
         jLabel_Genero.setForeground(new java.awt.Color(255, 255, 255));
@@ -109,7 +113,7 @@ public class Menu_Principal extends javax.swing.JFrame {
                 jTextField_GeneroActionPerformed(evt);
             }
         });
-        jDialog.getContentPane().add(jTextField_Genero, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 120, -1));
+        jDialog.getContentPane().add(jTextField_Genero, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 120, -1));
 
         boton_listo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/video-editor.png"))); // NOI18N
         boton_listo.setBorderPainted(false);
@@ -119,17 +123,17 @@ public class Menu_Principal extends javax.swing.JFrame {
                 boton_listoActionPerformed(evt);
             }
         });
-        jDialog.getContentPane().add(boton_listo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 210, 35, -1));
+        jDialog.getContentPane().add(boton_listo, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, 35, -1));
 
         jLabel_InsertarDatos.setBackground(new java.awt.Color(255, 255, 255));
         jLabel_InsertarDatos.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_InsertarDatos.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel_InsertarDatos.setText("Insertar");
-        jDialog.getContentPane().add(jLabel_InsertarDatos, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 260, -1, -1));
+        jDialog.getContentPane().add(jLabel_InsertarDatos, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, -1, -1));
 
         Fondo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Fondo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Fondo2.jpeg"))); // NOI18N
-        jDialog.getContentPane().add(Fondo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 290));
+        jDialog.getContentPane().add(Fondo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 280));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
